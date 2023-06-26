@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" type="image/png" sizes="16x16"  href="assets/img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">    
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>portfolio | Andrés Yepez</title>
+</head>
+
+<body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/profile-photo.jpeg" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Andrés Yepez</h2>
+                <h3 class="profile__profession">Ingeniero de Sistemas</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/a.yepez99/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/andres-yepez-7295b9209/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/AndresYepez99" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">2</h3>
+                    <p class="profile__info-description">
+                        Años de <br> experiencia
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+5</h3>
+                    <p class="profile__info-description">
+                        Proyectos <br> completados
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+1</h3>
+                    <p class="profile__info-description">
+                        Cliente <br> satisfecho
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a download="" href="" class="button">
+                    Descargar CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="https://wa.me/+573126036838/?text=Hola Andres!, manos a la obra!" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="https://ig.me/m/@a.yepez99" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Proyectos
+                </button>
+
+                <button class="filters__button" data-target="#skills">
+                    Habilidades
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card ">
+                        <img src="assets/img/coomulcavisur.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">landing Page</span>
+                                <h3 class="projects__title">Coomulcavisur</h3>
+                                <a href="https://www.coomulcavisur.com/" target="_blank" class="projects_button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/taxiya.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">App web (Proyecto Universitario)</span>
+                                <h3 class="projects__title">Taxiya!</h3>
+                                <a href="https://taxiyawebsite.000webhostapp.com/#home" target="_blank" class="projects_button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/etch-a-sketch.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Proyecto de diseño (funcional)</span>
+                                <h3 class="projects__title">Etch a sketch</h3>
+                                <a href="https://andresyepez99.github.io/etch-a-sketch/" target="_blank" class="projects_button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/calculator.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Proyecto de diseño (funcional)</span>
+                                <h3 class="projects__title">Calculadora</h3>
+                                <a href="https://andresyepez99.github.io/calculator/" target="_blank" class="projects_button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Tecnologias
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Avanzado</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermedio - Avanzado</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Intermedio</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermedio</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Sass</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Herramientas de desarrollo
+                        </h3>
+    
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Github</h3>
+                                        <span class="skills__level">Intermedio</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Bash</h3>
+                                        <span class="skills__level">Intermedio</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+        
+                                    <div>
+                                        <h3 class="skills__name">VS Code</h3>
+                                        <span class="skills__level">Intermedio</span>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <spaan class="footer__copy">
+            &#169; Andrés Yepez. Todos los derechos reservados
+        </spaan>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
